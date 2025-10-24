@@ -1,11 +1,44 @@
-# GeoGuessr AI
+# GeoGuessr.ai Coach - A Modern Approach to GeoGuessr AI
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Stelath/geoguessr-ai/blob/main/notebook/GeoGuessr_AI_Demo.ipynb) ![License](https://img.shields.io/github/license/Stelath/geoguessr-ai)
+<p align="center">
+  <a href="https://geoguessr.ai" target="_blank">
+    <img src="https://geoguessr.ai/og-image.webp" alt="GeoGuessr.ai Banner - The AI Coach for GeoGuessr">
+  </a>
+</p>
 
-This project was done personally as an opportunity to learn more about CNN & MLPs by creating a ML Model that could reliably guess a random location in one of five US cities given only a Google Street View image. The idea was inspired by the game GeoGuessr where the user is given a random Google Street View location and have to guess based on the Street View their location in the world.
+<p align="center">
+  This repository serves as the technical companion to <a href="https://geoguessr.ai" target="_blank"><strong>GeoGuessr.ai</strong></a>, our modern AI Coach for GeoGuessr. It is forked from the foundational <strong><a href="https://github.com/Stelath/geoguessr-ai">geoguessr-ai</a></strong> project by Stelath, and this document has been updated to showcase the evolution of this technology.
+</p>
 
-## Update
-Stanford Grad Students have recently released a model called PIGEON which significantly outperforms ours, I suggest you check it out [here](https://huggingface.co/geolocal/StreetCLIP)
+---
+
+## The Evolution: From a DIY Model to a Powerful AI Coach
+
+The original `geoguessr-ai` project (preserved in full below) was a fantastic exploration into building a custom CNN model to identify one of five US cities. It represents a classic, hands-on approach to machine learning and was an inspiration for many.
+
+However, the AI landscape has evolved dramatically. The challenge is no longer just about building a model that can *guess*, but about creating a tool that can ***teach***.
+
+This is the philosophy behind **[GeoGuessr.ai](https://geoguessr.ai)**. We've shifted the focus from "solving" to "coaching." Instead of training a limited model from scratch, we leverage advanced **prompt engineering** on state-of-the-art vision models (like Google's Gemini 2.5 Pro and OpenAI's o3) to teach them how to think like a world-champion player across the **entire globe**.
+
+Our AI Coach can:
+*   Identify hundreds of subtle "meta clues" (like specific bollards, road lines, and car parts).
+*   Explain its reasoning step-by-step, turning every analysis into a lesson.
+*   Help you train your own brain to spot these patterns.
+
+### Try the Live AI Coach Now
+
+This new, coaching-focused philosophy is live and accessible to everyone.
+
+**➡️ [Experience the AI Coach at GeoGuessr.ai](https://geoguessr.ai)**
+*(3 free analyses per day, no signup required)*
+
+---
+
+## Original `geoguessr-ai` Project README (A Nod to the Foundation)
+
+The following sections are the original, preserved `README.md` from Stelath's project. It's a valuable look into the foundational challenges and methodologies that paved the way for modern tools. We are immensely grateful for this foundational open-source contribution.
+
+---
 
 ## Project Overview
 
